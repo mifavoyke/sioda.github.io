@@ -5,9 +5,9 @@ Welcome to **SÍODA**, a fictional Irish fashion brand that celebrates the fusio
 ---
 
 ## 🚀 Try It Out  
-<p align="center">
-Visit the [SÍODA Website](#) to explore! 
-</p>
+
+## Visit the [SÍODA Website](#) to explore! 
+
 
 ---
 
