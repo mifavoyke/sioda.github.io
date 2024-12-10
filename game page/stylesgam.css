@@ -1,0 +1,63 @@
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #eee9e3; /* Light background color */
+}
+
+/* Top Left Logo */
+.top-left-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 208px; /* Adjust the size */
+    height: auto;
+    z-index: 10;
+}
+
+
+/* Main Content Section */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; /* Adjust height for spacing */
+    text-align: center;
+    margin-top: 80px; /* Push the heading below the logo */
+}
+
+.main-content h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px; /* Font size for both lines */
+    font-weight: bold;
+    letter-spacing: 2px; /* Add spacing between letters */
+    color: #333;
+    margin: 0;
+    line-height: 1.2; /* Adjust spacing between lines */
+}
+
+.main-content h1 span {
+    font-size: 48px; /* Same font size for consistency */
+    color: #333; /* Ensure same color */
+}
+
+
+/* Game Wrapper */
+.game-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20vh); /* Use remaining height */
+    margin-top: 20px; /* Add spacing below the heading */
+}
+
+/* Game Frame */
+.game-frame {
+    width: 90vw; /* Cover most of the viewport width */
+    height: 80vh; /* Cover most of the viewport height */
+    max-width: 1500px; /* Cap maximum width */
+    max-height: 1200px; /* Cap maximum height */
+    border: none; /* Remove iframe border */
+}

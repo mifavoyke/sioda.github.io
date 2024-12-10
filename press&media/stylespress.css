@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Roboto for body text */
+  background-color: #eee9e3; /* Matches wireframe background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full height centering */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: center; /* Center the logo and title */
+  align-items: center;
+  margin-bottom: 20px; /* Add spacing below header */
+}
+
+.logo img {
+  width: 208px; /* Logo dimensions */
+  height: 180px;
+  margin-right: 340px; /* Spacing between logo and title */
+  left: 20%;
+}
+
+.page-title {
+  font-family: 'Orbitron', sans-serif; /* Orbitron for heading */
+  font-size: 2.5rem; /* Slightly larger for emphasis */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  ;
+}
+
+/* Placeholder Image Section */
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-placeholder img {
+  width: 100%;
+  max-width: 881px; /* Restrict maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+/* Upcoming Exhibitions Section */
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Shading */
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px auto; /* Center text */
+  max-width: 800px; /* Restrict paragraph width for readability */
+}
+
+/* Links Section */
+.links-section {
+  display: flex;
+  justify-content: space-around; /* Evenly space items */
+  margin-top: 40px;
+}
+
+.link-card {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+  max-width: 300px; /* Ensure each card has a consistent width */
+}
+
+.link-card p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.link-card i {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.stars {
+  display: block;
+  margin: 15px auto 0;
+  max-width: 80px; /* Slightly larger */
+  height: auto;
+}
+

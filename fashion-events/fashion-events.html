@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Events</title>
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="fashion-events.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Removed "Fashion Designer" from top-left corner -->
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <span class="close-btn">&times;</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="press.html">Press & Media</a></li>
+                <li><a href="events.html">Fashion Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Fashion Events</h1>
+        
+        <section>
+            <h2>Upcoming</h2>
+            <div class="events-container">
+                <div class="event">
+                    <div class="event-date">
+                        <div>Fri</div>
+                        <div><strong>07 Feb</strong></div>
+                        <div>2025</div>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-title">Fashion Week Gala</div>
+                        <p>Join us for an unforgettable night of high fashion and exclusive designs in London.</p>
+                    </div>
+                    <button class="save-button">Save my spot</button>
+                </div>
+                <div class="event">
+                    <div class="event-date">
+                        <div>Sat</div>
+                        <div><strong>15 Feb</strong></div>
+                        <div>2025</div>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-title">Designer Showcase</div>
+                        <p>Experience the latest collections from top designers in Paris.</p>
+                    </div>
+                    <button class="save-button">Save my spot</button>
+                </div>
+                <div class="event">
+                    <div class="event-date">
+                        <div>Sat</div>
+                        <div><strong>01 Mar</strong></div>
+                        <div>2025</div>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-title">Milan Fashion Show</div>
+                        <p>Witness the finest creations at one of the most prestigious events in Milan.</p>
+                    </div>
+                    <button class="save-button">Save my spot</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Past</h2>
+            <div class="past-events">
+                <div class="past-event">
+                    <img src="assets/Milan fashion show.png" alt="Milan Fashion Show">
+                    <h3>Milan Fashion Show</h3>
+                    <p>Autumn/Winter 2024/2025</p>
+                </div>
+                <div class="past-event">
+                    <img src="assets/Paris fashion show.png" alt="Paris Fashion Show">
+                    <h3>Paris Fashion Show</h3>
+                    <p>Spring/Summer 2024</p>
+                </div>
+                <div class="past-event">
+                    <img src="assets/Dublin fashion week.png" alt="Dublin Independent Fashion Week">
+                    <h3>Dublin Independent Fashion Week</h3>
+                    <p>Autumn/Winter 2024</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <form class="newsletter">
+                    <input type="email" placeholder="Enter your email...">
+                    <button type="submit">→</button>
+                </form>
+            </div>
+            <div class="footer-right">
+                <div class="legal">
+                    <a href="/privacy">PRIVACY POLICY</a>
+                    <a href="/terms">COPYRIGHTS & TERMS OF USE</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Header Navigation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const nav = document.querySelector('nav');
+            const closeBtn = document.querySelector('.close-btn');
+
+            navToggle.addEventListener('click', () => {
+                nav.classList.add('show');
+            });
+
+            closeBtn.addEventListener('click', () => {
+                nav.classList.remove('show');
+            });
+        });
+    </script>
+</body>
+</html>

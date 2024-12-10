@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sioda</title>
+    <!-- Google Font: Orbitron -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Removed "Fashion Designer" from top-left corner -->
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <span class="close-btn">&times;</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="press.html">Press & Media</a></li>
+                <li><a href="events.html">Fashion Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Section -->
+    <main>
+        <section class="contact">
+            <!-- Contact Header -->
+            <header class="contact-header">
+                <h1>CONTACT</h1>
+            </header>
+
+            <!-- Contact Content -->
+            <div class="contact-content">
+                <h2>GET IN TOUCH</h2>
+                <p>We'd love to hear from you! Reach out for inquiries or to schedule a visit.</p>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i> <!-- Icon -->
+                    <h3>Email</h3>
+                    <p>Reach us at</p>
+                    <a href="mailto:hello@relume.io">hello@relume.io</a>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i> <!-- Icon -->
+                    <h3>Phone</h3>
+                    <p>Call us anytime</p>
+                    <a href="tel:+35381000000">+353 (81) 000-0000</a>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i> <!-- Icon -->
+                    <h3>Office</h3>
+                    <p>Apartment 2, Grenville St, Rotunda, Dublin 1, DOI N668</p>
+                    <a href="#">Get Directions →</a>
+                </div>
+            </div>
+
+            <!-- Map Container -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.305544441775!2d-6.263049410961697!3d53.35568650259118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e87ed854e1f%3A0xaec7aaa985163c58!2s2%20Grenville%20St%2C%20Rotunda%2C%20Dublin!5e0!3m2!1sen!2sie!4v1732846495933!5m2!1sen!2sie"
+                    width="550" height="330" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <form class="newsletter">
+                    <input type="email" placeholder="Enter your email...">
+                    <button type="submit">→</button>
+                </form>
+            </div>
+            <div class="footer-right">
+                <div class="legal">
+                    <a href="/privacy">PRIVACY POLICY</a>
+                    <a href="/terms">COPYRIGHTS & TERMS OF USE</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Header Navigation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const nav = document.querySelector('nav');
+            const closeBtn = document.querySelector('.close-btn');
+
+            navToggle.addEventListener('click', () => {
+                nav.classList.add('show');
+            });
+
+            closeBtn.addEventListener('click', () => {
+                nav.classList.remove('show');
+            });
+        });
+    </script>
+
+    <img src="assets/bottom-right-logo.png" alt="Bottom Right Logo" class="bottom-right-logo">
+</body>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Collections</title>
+    <!-- Google Font: Orbitron -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="collections.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <span class="close-btn">&times;</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="press.html">Press & Media</a></li>
+                <li><a href="events.html">Fashion Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Logo -->
+        <img src="assets/top-left-logo.png" alt="Logo" class="logo">
+
+        <!-- Header Section -->
+        <header>
+            <h1 class="header-title">COLLECTIONS</h1>
+            <p class="header-description">
+                Every collection is a testament to our commitment to craftsmanship, creativity, and sustainability. Infused with Irish heritage, our designs combine bold innovation with timeless elegance. Our collections are made with respect for the environment, using sustainable materials and ethical production processes to create pieces that are not only beautiful but responsible. Whether you’re looking for a statement piece or something understated, each collection is designed to stand the test of time, ensuring that your wardrobe remains stylish, meaningful, and eco-friendly.
+            </p>
+        </header>
+
+        <!-- Video Section -->
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="assets/Runway video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Collections Grid -->
+        <div class="collections-grid">
+            <div class="collection-item">
+                <img src="assets/SS25.jpg" alt="Spring/Summer 2025">
+                <p>Spring/Summer 2025</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/AW2425.jpg" alt="Autumn/Winter 2024/2025">
+                <p>Autumn/Winter 2024/2025</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/SS24.jpg" alt="Spring/Summer 2024">
+                <p>Spring/Summer 2024</p>
+            </div>
+        </div>
+
+        <!-- Discover Title -->
+        <h2 class="discover-title">DISCOVER<br>YOUR UNIQUE<br>STYLE</h2>
+
+        <!-- Additional Collections -->
+        <div class="collections-grid">
+            <div class="collection-item">
+                <img src="assets/AW2324.jpg" alt="Autumn/Winter 2023/2024">
+                <p>Autumn/Winter 2023/2024</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/SS2223.jpg" alt="Spring/Summer 2023">
+                <p>Spring/Summer 2023</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/AW2223.jpg" alt="Autumn/Winter 2022/2023">
+                <p>Autumn/Winter 2022/2023</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <form class="newsletter">
+                    <input type="email" placeholder="Enter your email...">
+                    <button type="submit">→</button>
+                </form>
+            </div>
+            <div class="footer-right">
+                <div class="legal">
+                    <a href="/privacy">PRIVACY POLICY</a>
+                    <a href="/terms">COPYRIGHTS & TERMS OF USE</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Header Navigation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const nav = document.querySelector('nav');
+            const closeBtn = document.querySelector('.close-btn');
+
+            navToggle.addEventListener('click', () => {
+                nav.classList.add('show');
+            });
+
+            closeBtn.addEventListener('click', () => {
+                nav.classList.remove('show');
+            });
+        });
+    </script>
+</body>
+</html>

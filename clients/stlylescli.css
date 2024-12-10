@@ -1,0 +1,161 @@
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eee9e3; /* Background color */
+    font-family: 'Roboto', sans-serif; /* Default font for non-heading text */
+}
+
+/* Top Left Logo */
+/* Top Left Logo */
+.top-left-logo {
+    position: absolute;
+    top: 10px; /* Adjust the vertical position */
+    left: 10px; /* Adjust the horizontal position */
+    width: 208px; /* Set width */
+    height: 180px; /* Set height */
+    object-fit: contain; /* Ensure the image maintains its aspect ratio inside the dimensions */
+}
+
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; /* Heading font */
+    font-size: 48px;
+    font-weight: bold;
+    margin: 50px 0 10px;
+    color: #333;
+}
+
+/* Page Subtitle */
+.page-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif; /* Use Roboto */
+}
+
+/* Clients Section */
+.clients-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.client-card {
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+}
+
+.client-image {
+    width: 80%; /* Fit the container width */
+    height: 150px; /* Keep height proportional and smaller */
+    margin: 0 auto 10px; /* Center the image horizontally */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Prevent image overflow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.client-image img {
+    width: 100%; /* Scale image to fit the container width */
+    height: 100%; /* Scale image to fit the container height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess parts */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+/* Adjustments for Specific Clients */
+.client-card:nth-child(1) .client-image img {
+    object-position: 15% 15%; /* Show more of the top part (face) for Client 1 */
+}
+
+.client-card:nth-child(2) .client-image img {
+    object-position: 35% 20%; /* Custom position to focus on the face for Client 2 */
+}
+
+
+
+
+
+.client-card h3 {
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Roboto', sans-serif; /* Use Roboto */
+}
+
+.client-card p {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Roboto', sans-serif; /* Use Roboto */
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonials-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif; /* Heading font */
+}
+
+.testimonial {
+    background-color: #f5e9e9; /* Light pink background */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif; /* Use Roboto */
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.client-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.client-name {
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif; /* Use Roboto */
+}
+
+.rating {
+    color: #f39c12; /* Gold color for stars */
+}
+
+.testimonial p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+}

@@ -1,0 +1,456 @@
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color:#EEE9E3
+}
+
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    background: transparent;
+}
+
+.logo {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95);
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav.show {
+    right: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    opacity: 0.7;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Styling "CONTACT" */
+.contact-header {
+    text-align: center;
+    margin-top: 0.1%; /* Keeps your original margin */
+    position: relative;
+
+}
+/* Apply Roboto font to all text except the "CONTACT" heading and logos */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Exclude "CONTACT" heading */
+.contact-header h1 {
+    font-family: 'Orbitron', sans-serif; /* Retain the Orbitron font */
+}
+
+/* Style for the text within the contact section */
+.contact-content h2, 
+.contact-content p,
+.contact-details h3, 
+.contact-details p, 
+.contact-details a, 
+.footer, 
+.menu-icon {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto */
+}
+
+.contact-header h1 {
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+    font-size: 48px; /* Keep the size for emphasis */
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+/* Styling "GET IN TOUCH" */
+.contact-content {
+    text-align: center;
+    margin-top: 7%; /* Keeps your original margin */
+}
+
+.contact-content h2 {
+    font-size: 32px; /* Keep the size as is */
+    font-weight: bold; /* Make it bold */
+    color: #000; /* Black color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin: 0 0 10px 0; /* Keep the existing margin */
+}
+
+
+/* Styling "We'd love to hear from you!" */
+.contact-content p {
+    font-size: 16px;
+    color: #666;
+    margin: 0; /* Very slight margin to keep it visually close to "GET IN TOUCH" */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact Details on the Left */
+.contact-details {
+    position: absolute;
+    left: 5%; /* Adjust the position from the left */
+    top: 40%; /* Keeps vertical placement consistent */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+
+/* Styling for the Info Items */
+.info-item {
+    text-align: left;
+    margin-bottom: 20px; /* Adds spacing between items */
+}
+
+.info-item i {
+    font-size: 24px; /* Adjust icon size */
+    color: rgb(0, 2, 5); /* Default color for icons (adjust as needed) */
+    margin-bottom: 10px; /* Adds space between the icon and text */
+}
+
+/* Individual Icon Colors (Optional) */
+.info-item:nth-child(1) i { /* Email icon */
+    color: #000000; /* Green */
+}
+
+.info-item:nth-child(2) i { /* Phone icon */
+    color: #000000; /* Yellow */
+}
+
+.info-item:nth-child(3) i { /* Office icon */
+    color: #000000; /* Orange */
+}
+
+.info-item h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.info-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.info-item a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* Styling for the Map Container */
+.map-container {
+    position: absolute;
+    top: 44%;
+    right: 5%; /* Adjusted to fit in the viewport */
+    width: 550px;
+    height: 330px;
+    background-color: #ccc; /* Fallback background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+
+/* Founder Section */
+.founder-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.founder-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.founder-profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.founder-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.founder-info {
+    max-width: 600px;
+    text-align: left;
+}
+
+.founder-info h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.founder-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+/* Team Section */
+.team-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.team-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.team-member {
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.member-photo {
+    font-size: 2.5rem;
+    /* Adjust emoji size */
+    margin-bottom: 1rem;
+}
+
+.member-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.member-title {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    margin: 0 5px;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid #000;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1rem 2rem;
+    gap: 2rem;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter {
+    display: flex;
+    gap: 1rem;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    border: 1px solid #000;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.social-links {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Optional: Space between the icons */
+}
+
+.social-links a {
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    /* Replace with actual icons */
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.legal {
+    font-size: 0.8rem;
+    color: #000;
+    margin-top: 0.5rem;
+}
+
+.legal a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-right {
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .legal a {
+        margin: 0 1rem 0 0;
+    }
+}
+
+.heart-icon {
+    font-size: 24px;
+}
+
+/* Top Left Logo */
+.top-left-logo {
+    position: absolute;
+    top: 10px; /* Adjust distance from the top */
+    left: 10px; /* Adjust distance from the left */
+    width: 208px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; /* Keep it above other elements */
+}
+
+/* Bottom Right Logo */
+.bottom-right-logo {
+    position: absolute;
+    bottom: -10%; /* Adjust distance from the bottom */
+    right: 10px; /* Adjust distance from the right */
+    width: 100px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; /* Keep it above other elements */
+}
+

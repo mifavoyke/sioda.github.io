@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #EEE9E3;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 100px auto 0;
+    /* Adjusted for sticky header */
+    padding: 0 1rem;
+}
+
+.about-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.logo-large {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.sioda-description {
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    line-height: 1.8;
+}
+
+/* Founder Section */
+.founder-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.founder-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.founder-profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.founder-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.founder-info {
+    max-width: 600px;
+    text-align: left;
+}
+
+.founder-info h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.founder-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+/* Team Section */
+.team-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.team-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.team-member {
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.member-photo {
+    font-size: 2.5rem;
+    /* Adjust emoji size */
+    margin-bottom: 1rem;
+}
+
+.member-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.member-title {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    margin: 0 5px;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+}
