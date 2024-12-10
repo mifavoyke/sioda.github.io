@@ -44,8 +44,3 @@ This comprehensive approach ensures the SÍODA website is both functional and in
   - [Anthropic’s V0 Chat](https://v0.dev/chat/2T9txalKg4r) feedback analysis and code nuances.  
 - **Design Software**: Figma for wireframes and prototypes.
 
----
-
-### 📌 Contributors  
-- [Your Name](#)  
-- [Team Member Name](#)  
