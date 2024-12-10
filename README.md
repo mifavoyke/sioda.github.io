@@ -1,4 +1,3 @@
-<p align="center">
 # SÍODA: Embracing Sustainable Irish Fashion  
 
 Welcome to **SÍODA**, a fictional Irish fashion brand that celebrates the fusion of sustainability and heritage. This project showcases how modern design and ethical values can create timeless beauty.  
@@ -6,9 +5,10 @@ Welcome to **SÍODA**, a fictional Irish fashion brand that celebrates the fusio
 ---
 
 ## 🚀 Try It Out  
+<p align="center">
 Visit the [SÍODA Website](#) to explore! 
-
 </p>
+
 ---
 
 ## 🌿 About SÍODA  
