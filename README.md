@@ -6,8 +6,7 @@ Welcome to **SÍODA**, a fictional Irish fashion brand that celebrates the fusio
 
 ## 🚀 Try It Out  
 
-## Visit the SÍODA Website to explore!
-https://mifavoyke.github.io/sioda.github.io/
+## Visit the [SÍODA Website](https://mifavoyke.github.io/sioda.github.io/) to explore!
 
 ---
 
