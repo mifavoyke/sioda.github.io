@@ -40,8 +40,8 @@ This comprehensive approach ensures the SÍODA website is both functional and in
 ## 💻 Tech Stack  
 - **Languages**: HTML, CSS, JavaScript  
 - **AI Tools**:  
-  - [Claude AI](https://claude.ai/chat/2a81f73b-6d20-49f4-8b7b-1deec5aa3914) for brainstorming and content refinement.  
-  - [Anthropic’s V0 Chat](https://v0.dev/chat/2T9txalKg4r) for idea generation and feedback analysis.  
+  - [Claude AI](https://claude.ai/chat/2a81f73b-6d20-49f4-8b7b-1deec5aa3914) for content refinement and technical consulations.  
+  - [Anthropic’s V0 Chat](https://v0.dev/chat/2T9txalKg4r) feedback analysis and code nuances.  
 - **Design Software**: Figma for wireframes and prototypes.
 
 ---
