@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("http://localhost/") center/cover no-repeat fixed;
+    background: url("../assets/background.jpeg") center/cover no-repeat fixed;
     min-height: 100vh;
     position: relative;
 }
