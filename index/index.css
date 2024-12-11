@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("../assets/background.jpeg") center/cover no-repeat fixed;
+    background: url("../assets/bg10.jpg") center/cover no-repeat fixed;
     min-height: 100vh;
     position: relative;
 }
@@ -62,7 +62,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.4);
     border-top: 1px solid #000;
 }
 
