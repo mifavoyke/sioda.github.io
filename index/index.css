@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("../assets/bg10.jpg") center/cover no-repeat fixed;
+    background: url("../assets/background/bg-centre-light.jpg") center/cover no-repeat fixed;
     min-height: 100vh;
     position: relative;
 }
