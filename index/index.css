@@ -13,21 +13,21 @@ body {
 
 .logo {
     position: absolute;
-    top: 2rem;
+    top: 1.2rem;
     left: 2rem;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
+    width: 150px;
+    height: auto;
 }
 
 .hero-text {
     position: absolute;
-    top: 6rem;
+    bottom: 6rem;
     left: 2rem;
-    max-width: 400px;
+    max-width: 450px;
     line-height: 1.6;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
+    color: #EEE9E3;
+    /* text-shadow: 0 0 10px #AFA499, 0 0 15px #785E65; */
 }
 
 .nav-links {
@@ -45,18 +45,20 @@ body {
 }
 
 .nav-link:hover {
-    color: #666;
+    color: #CC44DD;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 /* Adjusted positions to avoid overlap */
-.about { top: 25%; left: 35%; }
-.studio { top: 30%; right: 10%; }
-.collections { top: 40%; left: 45%; }
-.fashion-events { top: 50%; right: 20%; }
-.clients { top: 60%; right: 30%; }
-.press { bottom: 30%; left: 10%; }
-.discover { bottom: 40%; left: 35%; }
-.contact { bottom: 20%; right: 15%; }
+.about { bottom: 33%; right: 45%; }
+.studio { top: 35%; right: 8%; }
+.collections { top: 40%; right: 35%; }
+.fashion-events { bottom: 43%; right: 28%; }
+.clients { bottom: 16%; right: 30%; }
+.press { top: 30%; left: 15%; }
+.discover { top: 43%; left: 5%; }
+.contact { bottom: 23%; right: 10%; }
 
 .footer {
     position: fixed;
